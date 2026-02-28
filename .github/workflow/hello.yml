@@ -1,9 +1,11 @@
-name: My First Workflow
+name: Hello World
 
-on: push
+on:
+  push:
+    branches: [ main ]
 
 jobs:
-  hello-job:
+  greet:
     runs-on: ubuntu-latest
 
     steps:
